@@ -1,0 +1,4 @@
+# ESTUDIO UMBRAL — sitio demo (ALMATE · Digital Studio)
+# Sin restricciones de rastreo: contenido ficticio de demostración.
+User-agent: *
+Allow: /

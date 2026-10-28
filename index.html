@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ESTUDIO UMBRAL · Arquitectura residencial e interiores — sitio demo</title>
+  <meta name="description" content="ESTUDIO UMBRAL es un estudio ficticio de arquitectura residencial, renovación y diseño de interiores. Landing editorial creada como demostración de ALMATE · Digital Studio.">
+  <meta name="theme-color" content="#F4F0E8">
+  <meta name="color-scheme" content="light">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="ESTUDIO UMBRAL">
+  <meta property="og:title" content="ESTUDIO UMBRAL · Espacios que encuentran su forma">
+  <meta property="og:description" content="Arquitectura residencial, renovación e interiores. Sitio demo desarrollado por ALMATE · Digital Studio.">
+  <meta property="og:image" content="assets/img/og-cover-1200x630.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Interior residencial con luz natural, madera y superficies minerales.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ESTUDIO UMBRAL · Espacios que encuentran su forma">
+  <meta name="twitter:description" content="Arquitectura residencial, renovación e interiores. Sitio demo de ALMATE · Digital Studio.">
+  <meta name="twitter:image" content="assets/img/og-cover-1200x630.jpg">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/favicon.svg">
+  <link rel="manifest" href="assets/site.webmanifest">
+
+  <link rel="preload" as="style" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/sections.css">
+
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "ESTUDIO UMBRAL",
+        "description": "Sitio demo de un estudio ficticio de arquitectura residencial e interiores.",
+        "inLanguage": "es"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESTUDIO UMBRAL · Arquitectura residencial e interiores",
+        "description": "Landing editorial de demostración desarrollada por ALMATE · Digital Studio.",
+        "inLanguage": "es"
+      }
+    ]
+  }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- ============================================================ CABECERA -->
+  <header class="site-header" data-header>
+    <div class="site-header__inner">
+      <a class="brand" href="#top" aria-label="ESTUDIO UMBRAL, ir al inicio">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">Estudio Umbral</span>
+      </a>
+
+      <button type="button" class="nav-toggle js-only" data-nav-toggle aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__label" data-nav-label>Menú</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-nav>
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="#proyectos">Proyectos</a></li>
+          <li><a class="site-nav__link" href="#servicios">Servicios</a></li>
+          <li><a class="site-nav__link" href="#metodo">Método</a></li>
+          <li><a class="site-nav__link" href="#estudio">Estudio</a></li>
+          <li><a class="site-nav__link" href="#contacto">Contacto</a></li>
+        </ul>
+        <a class="btn btn--ink site-nav__cta" href="#contacto">Hablemos de tu proyecto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============================================================== HERO -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__text">
+        <p class="section-kicker hero__kicker">
+          <span class="section-kicker__num">00</span>
+          <span class="section-kicker__rule" aria-hidden="true"></span>
+          <span class="section-kicker__label">Arquitectura residencial · Renovación · Interiores</span>
+        </p>
+
+        <h1 class="hero__title" id="hero-title">Espacios que<br>encuentran <em>su forma</em></h1>
+
+        <p class="hero__lead">
+          Proyectamos casas y renovaciones a partir de tres cosas concretas: la luz que entra,
+          la materia que se toca y los hábitos de quien habita. Lo demás es consecuencia.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--ink" href="#contacto">Hablemos de tu proyecto</a>
+          <a class="link-arrow" href="#proyectos">Ver proyectos <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="hero__note">
+          <span class="hero__note-num" aria-hidden="true">01</span>
+          <p class="hero__note-text">
+            Portfolio de referencia<br>
+            <span class="u-muted">Seis proyectos ficticios de ejemplo</span>
+          </p>
+        </div>
+      </div>
+
+      <figure class="hero__figure">
+        <img
+          class="hero__img"
+          src="assets/img/hero-main-1800.jpg"
+          srcset="assets/img/hero-main-1000.jpg 1000w, assets/img/hero-main-1800.jpg 1800w"
+          sizes="(min-width: 900px) 56vw, 100vw"
+          width="1800" height="1200"
+          alt="Interior luminoso de una vivienda: muro de hormigón visto, piso de madera clara y una ventana vertical que deja entrar el sol de la tarde."
+          fetchpriority="high" decoding="async">
+        <figcaption class="hero__caption">
+          <span class="hero__caption-tag">Ejemplo de portfolio</span>
+          Casa Terreno · Valle Escondido, 2024
+        </figcaption>
+      </figure>
+
+      <p class="hero__vertical" aria-hidden="true">Selección 2021 — 2024</p>
+    </section>
+
+    <!-- ========================================================== PROYECTOS -->
+    <section class="section projects" id="proyectos" aria-labelledby="proyectos-title">
+      <div class="section__head">
+        <p class="section-kicker">
+          <span class="section-kicker__num">01</span>
+          <span class="section-kicker__rule" aria-hidden="true"></span>
+          <span class="section-kicker__label">Selección de proyectos</span>
+        </p>
+        <div class="section__head-grid">
+          <h2 class="section__title" id="proyectos-title">Obras pensadas<br>para ser habitadas</h2>
+          <p class="section__intro">
+            Seis proyectos ficticios que ejemplifican el tipo de trabajo del estudio: obra nueva,
+            reformas profundas y espacios interiores resueltos con pocos materiales y buena luz.
+            Cada ficha se abre con imágenes adicionales.
+          </p>
+        </div>
+      </div>
+
+      <div class="projects__grid">
+
+        <!-- 01 · ancho -->
+        <article class="project project--wide" id="proyecto-terreno" data-project="terreno">
+          <figure class="project__figure">
+            <button type="button" class="project__trigger js-only" data-open-project="terreno"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              <img class="project__img"
+                   src="assets/img/proj-terreno-1400.jpg"
+                   srcset="assets/img/proj-terreno-800.jpg 800w, assets/img/proj-terreno-1400.jpg 1400w"
+                   sizes="(min-width: 900px) 58vw, 100vw"
+                   width="1400" height="875" loading="lazy" decoding="async"
+                   alt="Casa de una planta con muro de hormigón y gran ventanal, vista desde un patio con pasto bajo el sol.">
+              <span class="project__hint" aria-hidden="true">Ver ficha</span>
+            </button>
+            <figcaption class="project__caption">Acceso sur · hormigón visto y pino termotratado</figcaption>
+          </figure>
+          <div class="project__body">
+            <p class="project__index"><span aria-hidden="true">01</span></p>
+            <p class="project__tag">Ejemplo de portfolio</p>
+            <h3 class="project__title">Casa Terreno</h3>
+            <dl class="project__meta">
+              <div class="project__meta-row"><dt>Tipo</dt><dd>Arquitectura residencial</dd></div>
+              <div class="project__meta-row"><dt>Ubicación</dt><dd>Valle Escondido</dd></div>
+              <div class="project__meta-row"><dt>Año</dt><dd>2024</dd></div>
+            </dl>
+            <p class="project__desc">
+              Vivienda unifamiliar de una planta organizada alrededor de un patio. El hormigón
+              visto sostiene la cubierta y la madera aporta la escala que se toca.
+            </p>
+            <button type="button" class="link-arrow js-only" data-open-project="terreno"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              Ver proyecto <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- 02 · vertical, texto a la izquierda -->
+        <article class="project project--tall project--offset-left" id="proyecto-mitre" data-project="mitre">
+          <div class="project__body">
+            <p class="project__index"><span aria-hidden="true">02</span></p>
+            <p class="project__tag">Ejemplo de portfolio</p>
+            <h3 class="project__title">Departamento Mitre</h3>
+            <dl class="project__meta">
+              <div class="project__meta-row"><dt>Tipo</dt><dd>Reforma integral</dd></div>
+              <div class="project__meta-row"><dt>Ubicación</dt><dd>Centro Norte</dd></div>
+              <div class="project__meta-row"><dt>Año</dt><dd>2023</dd></div>
+            </dl>
+            <p class="project__desc">
+              Se abre el entrepiso para recuperar la luz de dos ambientes y se ordena el eje
+              de circulación con un mueble corrido de suelo a techo.
+            </p>
+            <button type="button" class="link-arrow js-only" data-open-project="mitre"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              Ver proyecto <span aria-hidden="true">→</span>
+            </button>
+          </div>
+          <figure class="project__figure">
+            <button type="button" class="project__trigger js-only" data-open-project="mitre"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              <img class="project__img"
+                   src="assets/img/proj-mitre-1200.jpg"
+                   srcset="assets/img/proj-mitre-800.jpg 800w, assets/img/proj-mitre-1200.jpg 1200w"
+                   sizes="(min-width: 900px) 42vw, 100vw"
+                   width="1200" height="1600" loading="lazy" decoding="async"
+                   alt="Rincón de living con sofá bajo, lámpara de pie y pared clara iluminada por una ventana lateral.">
+              <span class="project__hint" aria-hidden="true">Ver ficha</span>
+            </button>
+            <figcaption class="project__caption">Living abierto · luz de la tarde</figcaption>
+          </figure>
+        </article>
+
+        <!-- 03 y 04 · pareja escalonada -->
+        <article class="project project--small project--pair-a" id="proyecto-cauce" data-project="cauce">
+          <figure class="project__figure">
+            <button type="button" class="project__trigger js-only" data-open-project="cauce"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              <img class="project__img"
+                   src="assets/img/proj-cauce-1200.jpg"
+                   srcset="assets/img/proj-cauce-800.jpg 800w, assets/img/proj-cauce-1200.jpg 1200w"
+                   sizes="(min-width: 900px) 34vw, 100vw"
+                   width="1200" height="900" loading="lazy" decoding="async"
+                   alt="Mesa larga de madera en un estudio con estanterías, plantas y luz natural difusa.">
+              <span class="project__hint" aria-hidden="true">Ver ficha</span>
+            </button>
+            <figcaption class="project__caption">Mesa de trabajo · roble macizo</figcaption>
+          </figure>
+          <div class="project__body">
+            <p class="project__index"><span aria-hidden="true">03</span></p>
+            <p class="project__tag">Ejemplo de portfolio</p>
+            <h3 class="project__title">Estudio Cauce</h3>
+            <dl class="project__meta">
+              <div class="project__meta-row"><dt>Tipo</dt><dd>Diseño de interiores</dd></div>
+              <div class="project__meta-row"><dt>Ubicación</dt><dd>Puerto Serena</dd></div>
+              <div class="project__meta-row"><dt>Año</dt><dd>2024</dd></div>
+            </dl>
+            <p class="project__desc">
+              Espacio de trabajo de treinta y dos metros cuadrados donde una sola pieza de
+              carpintería define reunión, archivo y descanso.
+            </p>
+            <button type="button" class="link-arrow js-only" data-open-project="cauce"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              Ver proyecto <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="project project--small project--pair-b" id="proyecto-loma" data-project="loma">
+          <figure class="project__figure">
+            <button type="button" class="project__trigger js-only" data-open-project="loma"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              <img class="project__img"
+                   src="assets/img/proj-loma-1200.jpg"
+                   srcset="assets/img/proj-loma-800.jpg 800w, assets/img/proj-loma-1200.jpg 1200w"
+                   sizes="(min-width: 900px) 34vw, 100vw"
+                   width="1200" height="1600" loading="lazy" decoding="async"
+                   alt="Fachada blanca de una casa entre árboles con voladizo que proyecta sombra sobre la ventana.">
+              <span class="project__hint" aria-hidden="true">Ver ficha</span>
+            </button>
+            <figcaption class="project__caption">Fachada oeste · voladizo de sombra</figcaption>
+          </figure>
+          <div class="project__body">
+            <p class="project__index"><span aria-hidden="true">04</span></p>
+            <p class="project__tag">Ejemplo de portfolio</p>
+            <h3 class="project__title">Casa Loma</h3>
+            <dl class="project__meta">
+              <div class="project__meta-row"><dt>Tipo</dt><dd>Arquitectura residencial</dd></div>
+              <div class="project__meta-row"><dt>Ubicación</dt><dd>Loma Alta</dd></div>
+              <div class="project__meta-row"><dt>Año</dt><dd>2022</dd></div>
+            </dl>
+            <p class="project__desc">
+              Dos cuerpos desplazados que siguen la pendiente y dejan entre medio un alero
+              protegido: la entrada sucede a cielo abierto.
+            </p>
+            <button type="button" class="link-arrow js-only" data-open-project="loma"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              Ver proyecto <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- 05 · ancho desplazado -->
+        <article class="project project--wide project--right" id="proyecto-ribera" data-project="ribera">
+          <div class="project__body">
+            <p class="project__index"><span aria-hidden="true">05</span></p>
+            <p class="project__tag">Ejemplo de portfolio</p>
+            <h3 class="project__title">Piso Ribera</h3>
+            <dl class="project__meta">
+              <div class="project__meta-row"><dt>Tipo</dt><dd>Reforma y amoblamiento</dd></div>
+              <div class="project__meta-row"><dt>Ubicación</dt><dd>Barrio Jardín</dd></div>
+              <div class="project__meta-row"><dt>Año</dt><dd>2023</dd></div>
+            </dl>
+            <p class="project__desc">
+              Se retira todo lo que no hacía falta y se devuelve al piso su relación con la
+              calle: cocina al frente, dormitorios hacia el fondo en silencio.
+            </p>
+            <button type="button" class="link-arrow js-only" data-open-project="ribera"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              Ver proyecto <span aria-hidden="true">→</span>
+            </button>
+          </div>
+          <figure class="project__figure">
+            <button type="button" class="project__trigger js-only" data-open-project="ribera"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              <img class="project__img"
+                   src="assets/img/proj-ribera-1400.jpg"
+                   srcset="assets/img/proj-ribera-800.jpg 800w, assets/img/proj-ribera-1400.jpg 1400w"
+                   sizes="(min-width: 900px) 58vw, 100vw"
+                   width="1400" height="875" loading="lazy" decoding="async"
+                   alt="Ambiente diurno con sofá de tela clara, mesa baja de madera y ventanales de piso a techo.">
+              <span class="project__hint" aria-hidden="true">Ver ficha</span>
+            </button>
+            <figcaption class="project__caption">Estar hacia la calle · carpintería nueva</figcaption>
+          </figure>
+        </article>
+
+        <!-- 06 · panorámico -->
+        <article class="project project--panorama" id="proyecto-pehuen" data-project="pehuen">
+          <figure class="project__figure">
+            <button type="button" class="project__trigger js-only" data-open-project="pehuen"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              <img class="project__img"
+                   src="assets/img/proj-pehuen-1800.jpg"
+                   srcset="assets/img/proj-pehuen-1000.jpg 1000w, assets/img/proj-pehuen-1800.jpg 1800w"
+                   sizes="(min-width: 900px) 92vw, 100vw"
+                   width="1800" height="1013" loading="lazy" decoding="async"
+                   alt="Construcción de líneas horizontales entre vegetación, con muros claros y sombras profundas bajo el sol.">
+              <span class="project__hint" aria-hidden="true">Ver ficha</span>
+            </button>
+            <figcaption class="project__caption">Refugio Pehuen · sierra y vegetación baja</figcaption>
+          </figure>
+          <div class="project__body project__body--row">
+            <div class="project__body-lead">
+              <p class="project__index"><span aria-hidden="true">06</span></p>
+              <p class="project__tag">Ejemplo de portfolio</p>
+              <h3 class="project__title">Refugio Pehuen</h3>
+            </div>
+            <dl class="project__meta project__meta--inline">
+              <div class="project__meta-row"><dt>Tipo</dt><dd>Rehabilitación</dd></div>
+              <div class="project__meta-row"><dt>Ubicación</dt><dd>Sierra Verde</dd></div>
+              <div class="project__meta-row"><dt>Año</dt><dd>2021</dd></div>
+            </dl>
+            <p class="project__desc">
+              Rehabilitación de una construcción de años sesenta: se reemplaza la envolvente,
+              se conserva la estructura y se abre el frente hacia el valle.
+            </p>
+            <button type="button" class="link-arrow js-only" data-open-project="pehuen"
+                    aria-haspopup="dialog" aria-controls="project-dialog">
+              Ver proyecto <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========================================================= MANIFIESTO -->
+    <section class="section manifesto" id="manifiesto" aria-labelledby="manifiesto-title">
+      <div class="section__head">
+        <p class="section-kicker section-kicker--invert">
+          <span class="section-kicker__num">02</span>
+          <span class="section-kicker__rule" aria-hidden="true"></span>
+          <span class="section-kicker__label">Manifiesto del estudio</span>
+        </p>
+      </div>
+
+      <blockquote class="manifesto__quote" id="manifiesto-title">
+        <p>
+          La arquitectura ocurre en el <em>umbral</em>: en el punto exacto donde la luz toca
+          un material y la vida cotidiana decide qué hacer con él.
+        </p>
+      </blockquote>
+
+      <div class="manifesto__grid">
+        <div class="manifesto__text">
+          <p>
+            Proyectamos pensando en esa escala doméstica. Antes que una imagen, buscamos una
+            secuencia: cómo se llega, qué se ve al entrar, dónde se apoya la mano, cómo cambia
+            la habitación a las cinco de la tarde.
+          </p>
+          <p>
+            La materia tiene memoria. Elegimos superficies que envejecen con dignidad —
+            piedra, madera, cal, hormigón — y las dejamos mostrar cómo fueron hechas.
+            La luz hace el resto del trabajo, gratis, todos los días.
+          </p>
+          <p class="manifesto__sign">ESTUDIO UMBRAL · manifiesto de trabajo</p>
+        </div>
+        <figure class="manifesto__figure">
+          <img class="manifesto__img"
+               src="assets/img/manifesto-detail-1000.jpg"
+               width="1000" height="1250" loading="lazy" decoding="async"
+               alt="Detalle constructivo de una junta entre madera y muro mineral, con la luz marcando el encuentro de ambos materiales.">
+          <figcaption class="manifesto__caption">Encuentro entre madera y muro · detalle constructivo</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ========================================================== SERVICIOS -->
+    <section class="section services" id="servicios" aria-labelledby="servicios-title">
+      <div class="section__head">
+        <p class="section-kicker">
+          <span class="section-kicker__num">03</span>
+          <span class="section-kicker__rule" aria-hidden="true"></span>
+          <span class="section-kicker__label">Servicios</span>
+        </p>
+        <div class="section__head-grid">
+          <h2 class="section__title" id="servicios-title">Qué hacemos,<br>y hasta dónde llegamos</h2>
+          <p class="section__intro">
+            Cuatro formas de trabajo que suelen combinarse. Un proyecto puede empezar como
+            una reforma y terminar incluyendo el mobiliario; lo definimos juntos al inicio.
+          </p>
+        </div>
+      </div>
+
+      <ul class="services__list">
+        <li class="service">
+          <p class="service__num" aria-hidden="true">01</p>
+          <div class="service__main">
+            <h3 class="service__title">Arquitectura residencial</h3>
+            <p class="service__desc">
+              Viviendas nuevas, ampliaciones y casas que crecen con su gente. Trabajamos la
+              implantación, la orientación y el aire antes que la fachada.
+            </p>
+          </div>
+          <p class="service__tags">Obra nueva · Ampliaciones · Vivienda unifamiliar</p>
+        </li>
+        <li class="service">
+          <p class="service__num" aria-hidden="true">02</p>
+          <div class="service__main">
+            <h3 class="service__title">Reformas y renovación</h3>
+            <p class="service__desc">
+              Intervenimos lo existente con respeto: distribuciones más claras, envolventes
+              mejoradas y materiales que envejecen bien.
+            </p>
+          </div>
+          <p class="service__tags">Rehabilitación · Reforma integral · Envolvente</p>
+        </li>
+        <li class="service">
+          <p class="service__num" aria-hidden="true">03</p>
+          <div class="service__main">
+            <h3 class="service__title">Diseño de interiores</h3>
+            <p class="service__desc">
+              Espacios, carpinterías a medida y detalles de luz. Pensamos el interior como una
+              extensión natural de la arquitectura, no como una capa posterior.
+            </p>
+          </div>
+          <p class="service__tags">Interiorismo · Mobiliario · Iluminación</p>
+        </li>
+        <li class="service">
+          <p class="service__num" aria-hidden="true">04</p>
+          <div class="service__main">
+            <h3 class="service__title">Dirección y seguimiento de obra</h3>
+            <p class="service__desc">
+              Coordinamos oficios, tiempos y presupuesto para que lo proyectado llegue a la
+              obra sin perder intención por el camino.
+            </p>
+          </div>
+          <p class="service__tags">Dirección · Contratación · Control de acabados</p>
+        </li>
+      </ul>
+
+      <figure class="services__band">
+        <img class="services__band-img"
+             src="assets/img/services-band-1600.jpg"
+             srcset="assets/img/services-band-900.jpg 900w, assets/img/services-band-1600.jpg 1600w"
+             sizes="100vw" width="1600" height="686" loading="lazy" decoding="async"
+             alt="Vista amplia de una obra en proceso con estructura vista, andamios y luz natural entrando por las aperturas.">
+        <figcaption class="services__band-caption">Obra en proceso · coordinación de oficios</figcaption>
+      </figure>
+    </section>
+
+    <!-- ============================================================ MÉTODO -->
+    <section class="section method" id="metodo" aria-labelledby="metodo-title">
+      <div class="section__head">
+        <p class="section-kicker">
+          <span class="section-kicker__num">04</span>
+          <span class="section-kicker__rule" aria-hidden="true"></span>
+          <span class="section-kicker__label">Método de trabajo</span>
+        </p>
+        <div class="section__head-grid">
+          <h2 class="section__title" id="metodo-title">Cuatro etapas,<br>sin atajos</h2>
+          <p class="section__intro">
+            El mismo recorrido para una cocina que para una casa completa. Cambia la escala,
+            no el orden: nada se resuelve en obra que pudiera resolverse en el dibujo.
+          </p>
+        </div>
+      </div>
+
+      <ol class="method__steps">
+        <li class="step step--1">
+          <p class="step__num" aria-hidden="true">01</p>
+          <h3 class="step__title">Escuchar</h3>
+          <p class="step__text">
+            Conversación inicial y visita al lugar: cómo se vive hoy, qué duele, qué hay que
+            conservar. Relevamos lo existente antes de proponer una sola línea.
+          </p>
+        </li>
+        <li class="step step--2">
+          <p class="step__num" aria-hidden="true">02</p>
+          <h3 class="step__title">Proyectar</h3>
+          <p class="step__text">
+            Alternativas de distribución, luz y materialidad en plantas, secciones y volumes
+            sencillos. Elegimos una dirección y la defendemos con claridad.
+          </p>
+        </li>
+        <li class="step step--3">
+          <p class="step__num" aria-hidden="true">03</p>
+          <h3 class="step__title">Desarrollar</h3>
+          <p class="step__text">
+            Detalles, encuentros, partidas y presupuesto. Cada decisión se resuelve en el
+            dibujo, con los oficios involucrados, antes de llegar a la obra.
+          </p>
+        </li>
+        <li class="step step--4">
+          <p class="step__num" aria-hidden="true">04</p>
+          <h3 class="step__title">Materializar</h3>
+          <p class="step__text">
+            Seguimiento de ejecución, resolución de imprevistos y control de acabados para
+            que el resultado conserve la idea original.
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- =========================================================== ESTUDIO -->
+    <section class="section about" id="estudio" aria-labelledby="estudio-title">
+      <div class="section__head">
+        <p class="section-kicker">
+          <span class="section-kicker__num">05</span>
+          <span class="section-kicker__rule" aria-hidden="true"></span>
+          <span class="section-kicker__label">Sobre el estudio</span>
+          <span class="section-kicker__note">Contenido de demostración</span>
+        </p>
+      </div>
+
+      <div class="about__grid">
+        <figure class="about__figure">
+          <img class="about__img"
+               src="assets/img/about-studio-1200.jpg"
+               srcset="assets/img/about-studio-800.jpg 800w, assets/img/about-studio-1200.jpg 1200w"
+               sizes="(min-width: 900px) 40vw, 100vw"
+               width="1200" height="1500" loading="lazy" decoding="async"
+               alt="Mesa de trabajo con maquetas, muestras de materiales y dibujos junto a una ventana.">
+          <figcaption class="about__caption">Mesa de proyecto · muestras y maquetas</figcaption>
+        </figure>
+
+        <div class="about__text">
+          <h2 class="section__title" id="estudio-title">Un estudio pequeño,<br>un criterio consistente</h2>
+          <p>
+            ESTUDIO UMBRAL es un estudio de arquitectura e interiores dedicado a la vivienda,
+            la renovación de lo existente y los espacios de uso cotidiano. Nos interesa la
+            construcción paciente: pocos gestos, bien resueltos, con materiales que mejoran
+            con el tiempo.
+          </p>
+          <p>
+            Trabajamos en escala cercana y de principio a fin, en diálogo constante con quien
+            va a habitar el lugar. Cada proyecto es una respuesta medida al clima, al
+            entorno y a una forma particular de vivir.
+          </p>
+
+          <dl class="about__data">
+            <div class="about__data-row">
+              <dt>Enfoque</dt>
+              <dd>Arquitectura, renovación e interiores en una misma conversación</dd>
+            </div>
+            <div class="about__data-row">
+              <dt>Ámbito</dt>
+              <dd>Vivienda, reformas y espacios de trabajo</dd>
+            </div>
+            <div class="about__data-row">
+              <dt>Método</dt>
+              <dd>Proyecto y obra coordinados por un mismo equipo</dd>
+            </div>
+            <div class="about__data-row">
+              <dt>Colaboración</dt>
+              <dd>Red de oficios y proveedores según cada obra</dd>
+            </div>
+          </dl>
+
+          <p class="about__disclaimer">
+            ESTUDIO UMBRAL es un estudio ficticio. Esta página, sus proyectos y sus datos
+            existen únicamente como muestra de diseño.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================== CONTACTO -->
+    <section class="section contact" id="contacto" aria-labelledby="contacto-title">
+      <div class="contact__grid">
+        <div class="contact__intro">
+          <p class="section-kicker section-kicker--invert">
+            <span class="section-kicker__num">06</span>
+            <span class="section-kicker__rule" aria-hidden="true"></span>
+            <span class="section-kicker__label">Contacto</span>
+          </p>
+          <h2 class="section__title contact__title" id="contacto-title">
+            Contanos qué<br>querés transformar
+          </h2>
+          <p class="contact__lead">
+            Una conversación de veinte minutos suele alcanzar para saber si somos el estudio
+            indicado. Contanos dónde está el espacio y qué te gustaría que cambiara.
+          </p>
+
+          <div class="contact__direct">
+            <h3 class="contact__direct-title">Vías directas</h3>
+            <p class="contact__direct-line">
+              <span class="u-muted">Correo de demostración</span><br>
+              <a class="contact__direct-link" href="mailto:hola@estudioumbral.example">hola@estudioumbral.example</a>
+            </p>
+            <p class="contact__direct-line" data-whatsapp-line hidden>
+              <span class="u-muted">WhatsApp configurable</span><br>
+              <a class="contact__direct-link" data-whatsapp-link href="#contacto">—</a>
+            </p>
+            <p class="contact__direct-note" data-whatsapp-note>
+              Esta demo no incluye un número de WhatsApp real. Se habilita editando
+              <code>assets/js/config.js</code>; también podés enviar el mensaje por correo.
+            </p>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap">
+          <form class="form" id="contact-form" novalidate autocomplete="on">
+            <p class="form__note">
+              Demostración sin servidor: el formulario valida y prepara tu mensaje, pero no lo
+              envía a ningún destino hasta que conectes un servicio (ver README).
+            </p>
+
+            <div class="field">
+              <label class="field__label" for="f-nombre">Nombre <span class="field__req" aria-hidden="true">*</span></label>
+              <input class="field__input" id="f-nombre" name="nombre" type="text"
+                     autocomplete="name" required minlength="2" maxlength="80"
+                     aria-describedby="f-nombre-error">
+              <p class="field__error" id="f-nombre-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-email">Correo electrónico <span class="field__req" aria-hidden="true">*</span></label>
+              <input class="field__input" id="f-email" name="email" type="email"
+                     autocomplete="email" required maxlength="120"
+                     aria-describedby="f-email-error">
+              <p class="field__error" id="f-email-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-tipo">Tipo de proyecto <span class="field__req" aria-hidden="true">*</span></label>
+              <select class="field__input field__select" id="f-tipo" name="tipo" required
+                      aria-describedby="f-tipo-error">
+                <option value="">Elegí una opción…</option>
+                <option value="Arquitectura residencial">Arquitectura residencial</option>
+                <option value="Reforma o renovación">Reforma o renovación</option>
+                <option value="Diseño de interiores">Diseño de interiores</option>
+                <option value="Dirección de obra">Dirección y seguimiento de obra</option>
+                <option value="Otro">Otro / no estoy seguro todavía</option>
+              </select>
+              <p class="field__error" id="f-tipo-error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-mensaje">Mensaje <span class="field__req" aria-hidden="true">*</span></label>
+              <textarea class="field__input field__textarea" id="f-mensaje" name="mensaje" rows="5"
+                        required minlength="20" maxlength="2000"
+                        aria-describedby="f-mensaje-hint f-mensaje-error"
+                        placeholder="Ubicación aproximada, metraje si lo sabés, y qué te gustaría resolver."></textarea>
+              <p class="field__hint" id="f-mensaje-hint">Mínimo 20 caracteres.</p>
+              <p class="field__error" id="f-mensaje-error" hidden></p>
+            </div>
+
+            <!-- Honeypot: se usa solo si se conecta un endpoint real -->
+            <div class="u-visually-hidden" aria-hidden="true">
+              <label for="f-web">No completar este campo</label>
+              <input id="f-web" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form__actions">
+              <button class="btn btn--terra" type="submit" data-submit>
+                <span data-submit-label>Preparar mensaje</span>
+              </button>
+              <p class="form__status" role="status" aria-live="polite" data-form-status></p>
+            </div>
+          </form>
+
+          <!-- Panel: mensaje preparado (alternativa transparente sin backend) -->
+          <div class="prepared" id="prepared-panel" hidden>
+            <h3 class="prepared__title">Mensaje listo para enviar</h3>
+            <p class="prepared__text">
+              No hay servidor detrás de esta demo, así que nada salió hacia ningún destino.
+              Usá una de estas vías para enviarlo de verdad:
+            </p>
+            <div class="prepared__preview" role="group" data-preview aria-label="Vista previa del mensaje"></div>
+            <div class="prepared__actions">
+              <a class="btn btn--terra" data-mail-link href="mailto:hola@estudioumbral.example">Abrir en mi correo</a>
+              <a class="btn btn--ghost" data-wa-link href="#contacto" hidden>Enviar por WhatsApp</a>
+              <button class="btn btn--ghost" type="button" data-copy>Copiar mensaje</button>
+              <button class="btn btn--text" type="button" data-edit>Editar el mensaje</button>
+            </div>
+            <p class="form__status" role="status" aria-live="polite" data-copy-status></p>
+          </div>
+
+          <!-- Panel: error de integración (solo si hay endpoint configurado) -->
+          <div class="prepared prepared--error" id="error-panel" hidden>
+            <h3 class="prepared__title">No se pudo enviar</h3>
+            <p class="prepared__text" data-error-detail>
+              El servicio de envío no respondió. Podés reintentar o usar el correo directo.
+            </p>
+            <div class="prepared__actions">
+              <button class="btn btn--ghost" type="button" data-retry>Reintentar</button>
+              <a class="btn btn--text" href="mailto:hola@estudioumbral.example">Escribir al correo del estudio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================ FOOTER -->
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <p class="brand brand--footer">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__name">Estudio Umbral</span>
+        </p>
+        <p class="site-footer__claim">Arquitectura residencial · Renovación · Interiores</p>
+      </div>
+
+      <nav class="site-footer__col" aria-label="Navegación secundaria">
+        <h2 class="site-footer__heading">Navegación</h2>
+        <ul class="site-footer__list">
+          <li><a href="#top">Inicio</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#manifiesto">Manifiesto</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#metodo">Método</a></li>
+          <li><a href="#estudio">Estudio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__col">
+        <h2 class="site-footer__heading">Contacto (demostración)</h2>
+        <ul class="site-footer__list">
+          <li><a href="mailto:hola@estudioumbral.example">hola@estudioumbral.example</a></li>
+          <li><span class="u-muted">Dominio reservado: no corresponde a un correo real</span></li>
+          <li><span class="u-muted">Sin redes sociales: son cuentas ficticias</span></li>
+        </ul>
+      </div>
+
+      <div class="site-footer__col">
+        <h2 class="site-footer__heading">Aviso</h2>
+        <p class="site-footer__note">
+          ESTUDIO UMBRAL es un estudio ficticio. Esta página es una demostración de diseño y
+          no representa a un cliente real de ALMATE.
+        </p>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <p class="site-footer__credit">
+        Sitio demo desarrollado por <strong>ALMATE · Digital Studio</strong>
+      </p>
+      <p class="site-footer__meta">
+        © <span data-year>2026</span> ESTUDIO UMBRAL (ficticio) ·
+        Fotografías de <a href="https://unsplash.com" rel="noopener noreferrer" target="_blank">Unsplash</a>
+        bajo licencia Unsplash · Tipografías de Google Fonts (OFL)
+      </p>
+    </div>
+  </footer>
+
+  <!-- ============================================================= MODAL -->
+  <dialog class="modal" id="project-dialog" aria-labelledby="modal-title" data-modal>
+    <div class="modal__inner">
+      <header class="modal__head">
+        <p class="modal__eyebrow">
+          <span class="modal__index" data-modal-index>01</span>
+          <span class="modal__eyebrow-text">Ficha de proyecto · ejemplo de portfolio</span>
+        </p>
+        <button type="button" class="modal__close" data-modal-close>
+          Cerrar <span class="modal__close-x" aria-hidden="true">✕</span>
+        </button>
+      </header>
+
+      <div class="modal__body">
+        <div class="modal__intro">
+          <h2 class="modal__title" id="modal-title" data-modal-title></h2>
+          <dl class="modal__meta" data-modal-meta></dl>
+        </div>
+
+        <figure class="modal__hero">
+          <img data-modal-hero alt="" width="1400" height="875" loading="lazy" decoding="async">
+          <figcaption data-modal-herocaption></figcaption>
+        </figure>
+
+        <div class="modal__content">
+          <div class="modal__text" data-modal-text></div>
+          <dl class="modal__specs" data-modal-specs></dl>
+        </div>
+
+        <div class="modal__gallery" data-modal-gallery></div>
+
+        <nav class="modal__nav" aria-label="Navegación entre proyectos">
+          <button type="button" class="link-arrow" data-modal-prev>
+            <span aria-hidden="true">←</span> Proyecto anterior
+          </button>
+          <button type="button" class="link-arrow" data-modal-next>
+            Proyecto siguiente <span aria-hidden="true">→</span>
+          </button>
+        </nav>
+
+        <div class="modal__foot">
+          <a class="btn btn--terra" href="#contacto" data-modal-contact>Consultar un proyecto similar</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <noscript>
+    <style>
+      .js-only { display: none !important; }
+      .site-nav { position: static !important; transform: none !important; opacity: 1 !important; visibility: visible !important; }
+    </style>
+  </noscript>
+
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/data/projects.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/projects.js" defer></script>
+  <script src="assets/js/contact.js" defer></script>
+</body>
+</html>

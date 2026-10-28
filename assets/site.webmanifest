@@ -1,0 +1,17 @@
+{
+  "name": "ESTUDIO UMBRAL — sitio demo",
+  "short_name": "ESTUDIO UMBRAL",
+  "description": "Landing editorial de un estudio ficticio de arquitectura e interiores. Demo de ALMATE · Digital Studio.",
+  "start_url": "../index.html",
+  "display": "browser",
+  "background_color": "#F4F0E8",
+  "theme_color": "#F4F0E8",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
